@@ -43,8 +43,8 @@
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_weight="1"
             android:insetRight="4dp"
-            android:lines="1"
-            android:ellipsize="end"/>
+            android:ellipsize="marquee"
+            android:singleLine="true" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_width="0dp"
@@ -53,7 +53,9 @@
             android:text="Stop Bound Service"
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_weight="1"
-            android:insetLeft="4dp"/>
+            android:ellipsize="marquee"
+            android:insetLeft="4dp"
+            android:singleLine="true" />
 
     </LinearLayout>
 
